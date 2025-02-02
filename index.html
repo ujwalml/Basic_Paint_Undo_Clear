@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Responsive Canvas</title>
-    <link rel="stylesheet" type="text/css" href="paint1.css">
-</head>
-<body>
+    <link rel="stylesheet" type="text/css" href="paint1.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="color-bar">
-            <p>Select a color:</p>
-            <div class="color-box" style="background: black;" onclick="colorSelect('black', 0)"></div>
-            <div class="color-box" style="background: red;" onclick="colorSelect('red', 1)"></div>
-            <div class="color-box" style="background: blue;" onclick="colorSelect('blue', 2)"></div>
-            <div class="color-box" style="background: green;" onclick="colorSelect('green', 3)"></div>
-            <div class="color-box" style="background: gold;" onclick="colorSelect('gold', 4)"></div>
-            <div class="color-box" style="background: purple;" onclick="colorSelect('purple', 5)"></div>
-            <div class="undo-box" onclick="undo()">Undo</div>
-            <div class="clear-box" onclick="clearCanvas()">Clear</div>
-        </div>
-        <canvas id="main"></canvas>
+      <div class="color-bar">
+        <p>Select a color:</p>
+        <div
+          class="color-box"
+          style="background: black"
+          onclick="colorSelect('black', 0)"
+        ></div>
+        <div
+          class="color-box"
+          style="background: red"
+          onclick="colorSelect('red', 1)"
+        ></div>
+        <div
+          class="color-box"
+          style="background: blue"
+          onclick="colorSelect('blue', 2)"
+        ></div>
+        <div
+          class="color-box"
+          style="background: green"
+          onclick="colorSelect('green', 3)"
+        ></div>
+        <div
+          class="color-box"
+          style="background: gold"
+          onclick="colorSelect('gold', 4)"
+        ></div>
+        <div
+          class="color-box"
+          style="background: purple"
+          onclick="colorSelect('purple', 5)"
+        ></div>
+        <div class="undo-box" onclick="undo()">Undo</div>
+        <div class="clear-box" onclick="clearCanvas()">Clear</div>
+      </div>
+      <canvas id="main"></canvas>
     </div>
+    <div class="action-buttonss">
+      <div class="eraser-box" onclick="useEraser()">Eraser</div>
+      <div class="download-box" onclick="downloadCanvas()">Download</div>
+    </div>
+
     <script src="paint2.js"></script>
-</body>
+  </body>
 </html>
