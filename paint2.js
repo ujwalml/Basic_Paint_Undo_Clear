@@ -1,5 +1,5 @@
 alert(
-  "WELCOME TO BASIC PAINT.\nEnjoy drawing on all devices!!.\nThis basic paint project is developed using HTML, CSS, JS.\nThis project enables us to choose the colours from the options and do some basic drawings like line drawings.\nYou can Erase, Undo, Clear and Download your drawings."
+  "WELCOME TO BASIC PAINT.\nEnjoy drawing on all devices!!.\nThis basic paint project is developed using HTML, CSS, JS.\nThis project enables us to choose the colours from the options and do some basic drawings like line drawings.\nYou can Erase, Undo, Clear and Download your drawings.\nScroll down to find Erase and Download button"
 );
 
 window.onload = () => {
