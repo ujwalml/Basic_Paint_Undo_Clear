@@ -1,7 +1,6 @@
 alert(
-  "WELCOME TO BASIC PAINT.\nEnjoy drawing on all devices!!.\nThis project enables us to choose the colours from the options and do some basic drawings like line drawings.\nYou can Erase, Undo, Clear and Download your drawings.\nScroll down to find Erase and Download button"
+  "WELCOME TO BASIC PAINT.\nEnjoy drawing on all devices!!.\nThis project enables us to choose the colours from the options and do some basic drawings like line drawings.\nYou can Erase, Undo, Clear and Download your drawings.\nScroll down to find Erase and Download button."
 );
-//
 window.onload = () => {
   init();
   window.addEventListener("resize", resizeCanvas);
