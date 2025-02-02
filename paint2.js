@@ -30,12 +30,12 @@ function init() {
 }
 
 function resizeCanvas() {
-  let prevData = ctx.getImageData(0, 0, c.width, c.height); // Store previous drawing
-  w = Math.min(window.innerWidth * 0.95, 1200); // Limit max width
+  let prevData = ctx.getImageData(0, 0, c.width, c.height); 
+  w = Math.min(window.innerWidth * 0.95, 1200); 
   h = window.innerHeight * 0.75;
   c.width = w;
   c.height = h;
-  ctx.putImageData(prevData, 0, 0); // Restore drawing
+  ctx.putImageData(prevData, 0, 0); 
   redraw();
 }
 
